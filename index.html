@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href ="assets/style.css">
+
+    <title>Weather Dashboard</title>
 </head>
 <body>
-    
+<header>Weather Dashboard</header>
+<div class="layout">
+<div class="search">
+        <div id="citySearch" class = "searchinfo">
+            <h3>Search for a City:</h3>
+            <div class="cityInput">
+                <input class="input" placeholder="Enter City" id="location"></input>
+                <br>
+                <button id="btn" class="btn">Search</button>
+                <br>
+                <button id="fav-btn"></button>
+            </div>
+            <ul>  </ul>
+            
+        </div>
+</div>
+
+<div class="weather">
+    <div class="current" id="current"> </div>
+</div>
+    <div class="forecast" id="forecast">   
+    <h2>5 Day Forecast</h2>    
+    </div>
+
+</div>
+
+
+
+
+
+<script src="assets/script.js"></script>
+
 </body>
 </html>

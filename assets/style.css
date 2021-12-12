@@ -1,0 +1,108 @@
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.searchinfo {
+    border-color: black;
+    background-color:rgb(222, 224, 226);
+    height: 100;
+    border-style: none;
+    padding-bottom:750px;
+    padding-right: 0;
+    float: left;
+    
+}
+
+.searchinfo h3 {
+    text-align: center;
+}
+
+
+.btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding-left: 133px;
+    padding-right: 133px;   
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.cityInput input {
+    width: 300px;
+    height: 25px;
+}
+
+button:hover {
+    background-color: black;
+    color: white
+}
+
+.current {
+    border-style: solid;
+    border-color: rgb(126, 122, 122);
+    margin-top: 10px;
+    margin-left: 315px;
+    
+    
+}
+
+.weather h3{
+    font-size: 30px;
+    color: blue;
+    margin-left: 5px;
+}
+
+/*.forecast {
+    margin-left: 315px; 
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    border-style: solid;
+    border-color: violet;
+    
+    
+}
+
+*/
+
+.forecast h2 {
+    margin-left: 315px;
+}
+.forecast div {
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.current p {
+    padding: 0px;
+    font-size: medium;
+    margin: 10px;
+}
+
+.current h4 {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.card {
+border-style: solid;
+border-color:white;
+float: left;
+background-color:blue;
+border-width: 25px;
+padding: 10px;
+color: white;
+
+
+
+}
